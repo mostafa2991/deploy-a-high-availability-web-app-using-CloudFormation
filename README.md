@@ -27,10 +27,9 @@ You have been tasked with provisioning the required infrastructure and deploying
 
 ## Project Setup
 
-- Create networking resources & Create servers for ours infrastructure
-```
+- Create networking resources & servers for ours infrastructure
 
-$ create.sh webapp-servers-stack ourinfra.yml ourinfra-params.json
+$ create.sh ourinfraServer ourinfra.yml ourinfra-params.json
 ```
 
 -   Following resources are created:
