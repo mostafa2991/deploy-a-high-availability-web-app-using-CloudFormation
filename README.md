@@ -15,7 +15,6 @@ You have been tasked with provisioning the required infrastructure and deploying
 - `create.sh`: This contains script to create CloudFormation stack
 - `update.sh`: This contains script to update CloudFormation stack
 - `Udagram Diagram.png`: This describes the architecture diagram of this project.
-- `Network_parameters.json`: Parameters file for network cloud formation stack.
 - `ourinfra.yml`: CloudFormation template for creating networking resources for this project.
 - `ourinfra-params.json`: Parameters file for servers cloud formation stack.
 
@@ -46,4 +45,4 @@ $ create.sh ourinfraServer ourinfra.yml ourinfra-params.json
     -   Load Balancer
     -   Target Group
 	
-- The URL of application can be find from the outputs section of `webapp-servers-stack` CloudFormarion stack.
+- The URL of application can be find from the outputs section of `ourinfraServer` CloudFormarion stack.
