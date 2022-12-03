@@ -27,10 +27,12 @@ You have been tasked with provisioning the required infrastructure and deploying
 
 ## Project Setup
 
-- Create networking resources 
+- Create networking resources & Create servers for ours infrastructure
 ```
-$ create.sh webapp-network-stack network.yml Network_parameters.json
+
+$ create.sh webapp-servers-stack ourinfra.yml ourinfra-params.json
 ```
+
 -   Following resources are created:
     -   VPC
     -   Subnets
@@ -38,15 +40,11 @@ $ create.sh webapp-network-stack network.yml Network_parameters.json
     -   Routes
     -   Internet Gateway
     -   NAT Gateways
-- Create servers for ours infrastructure .
-```
-$ create.sh webapp-servers-stack servers.yml servers-paramaters.json
-```
--   Following resources are created:
     -   Security Groups
     -   Instances
     -   Launch configuration
     -   Auto Scaling Group
     -   Load Balancer
     -   Target Group
+	
 - The URL of application can be find from the outputs section of `webapp-servers-stack` CloudFormarion stack.
