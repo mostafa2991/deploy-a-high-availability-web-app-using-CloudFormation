@@ -27,9 +27,9 @@ You have been tasked with provisioning the required infrastructure and deploying
 ## Project Setup
 
 - Create networking resources & servers for ours infrastructure
+```
 
 $ create.sh ourinfraServer ourinfra.yml ourinfra-params.json
-```
 
 -   Following resources are created:
     -   VPC
